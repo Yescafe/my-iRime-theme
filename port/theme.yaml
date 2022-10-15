@@ -1,6 +1,6 @@
 # encoding: utf-8
 
-config_version: "0.1"
+config_version: "0.1f1"
 name: 主键盘
 author: qyc
 
@@ -213,9 +213,9 @@ preset_keyboards:
       - {click: .symbols, width: 10}
       - {click: "。", label: "。", width: 15}
       - {click: "，", label: "，", width: 15}
-      - {click: "、", label: "、", width: 15}
       - {click: "？", label: "?", width: 15}
       - {click: "！", label: "!", width: 15}
+      - {click: "'", label: "'", width: 15}
       - {click: Backspace, width: 15}
 
       - {click: Abc, width: 20}

@@ -1,6 +1,6 @@
 # encoding: utf-8
 
-config_version: "0.2"
+config_version: "0.3p"
 name: 主键盘
 author: qyc
 
@@ -37,27 +37,27 @@ preset_keyboards:
     vertical_gap: *vergap
     round_corner: *round
     keys:
-      - {click: q, label: q}
-      - {click: w, label: w}
-      - {click: e, label: e}
-      - {click: r, label: r}
-      - {click: t, label: t}
-      - {click: y, label: y}
-      - {click: u, label: u}
-      - {click: i, label: i}
-      - {click: o, label: o}
-      - {click: p, label: p}
+      - {click: q, label: q, swipe_up: "1"}
+      - {click: w, label: w, swipe_up: "2"}
+      - {click: e, label: e, swipe_up: "3"}
+      - {click: r, label: r, swipe_up: "4"}
+      - {click: t, label: t, swipe_up: "5"}
+      - {click: y, label: y, swipe_up: "6"}
+      - {click: u, label: u, swipe_up: "7"}
+      - {click: i, label: i, swipe_up: "8"}
+      - {click: o, label: o, swipe_up: "9"}
+      - {click: p, label: p, swipe_up: "0"}
 
       - {width: 5}
-      - {click: a, label: a}
-      - {click: s, label: s}
-      - {click: d, label: d}
-      - {click: f, label: f}
-      - {click: g, label: g}
-      - {click: h, label: h}
-      - {click: j, label: j}
-      - {click: k, label: k}
-      - {click: l, label: l}
+      - {click: a, label: a, swipe_up: "！"}
+      - {click: s, label: s, swipe_up: "@"}
+      - {click: d, label: d, swipe_up: "#"}
+      - {click: f, label: f, swipe_up: "￥"}
+      - {click: g, label: g, swipe_up: "%"}
+      - {click: h, label: h, swipe_up: "…"}
+      - {click: j, label: j, swipe_up: "&"}
+      - {click: k, label: k, swipe_up: "*"}
+      - {click: l, label: l, swipe_up: "）"}
       - {width: 5}
 
       - {click: Shift, width: 14}
@@ -134,27 +134,27 @@ preset_keyboards:
     vertical_gap: *vergap
     round_corner: *round
     keys:
-      - {click: q, label: q}
-      - {click: w, label: w}
-      - {click: e, label: e}
-      - {click: r, label: r}
-      - {click: t, label: t}
-      - {click: y, label: y}
-      - {click: u, label: u}
-      - {click: i, label: i}
-      - {click: o, label: o}
-      - {click: p, label: p}
+      - {click: q, label: q, swipe_up: "1"}
+      - {click: w, label: w, swipe_up: "2"}
+      - {click: e, label: e, swipe_up: "3"}
+      - {click: r, label: r, swipe_up: "4"}
+      - {click: t, label: t, swipe_up: "5"}
+      - {click: y, label: y, swipe_up: "6"}
+      - {click: u, label: u, swipe_up: "7"}
+      - {click: i, label: i, swipe_up: "8"}
+      - {click: o, label: o, swipe_up: "9"}
+      - {click: p, label: p, swipe_up: "0"}
 
       - {width: 5}
-      - {click: a, label: a}
-      - {click: s, label: s}
-      - {click: d, label: d}
-      - {click: f, label: f}
-      - {click: g, label: g}
-      - {click: h, label: h}
-      - {click: j, label: j}
-      - {click: k, label: k}
-      - {click: l, label: l}
+      - {click: a, label: a, swipe_up: "!"}
+      - {click: s, label: s, swipe_up: "@"}
+      - {click: d, label: d, swipe_up: "#"}
+      - {click: f, label: f, swipe_up: "$"}
+      - {click: g, label: g, swipe_up: "%"}
+      - {click: h, label: h, swipe_up: "^"}
+      - {click: j, label: j, swipe_up: "&"}
+      - {click: k, label: k, swipe_up: "*"}
+      - {click: l, label: l, swipe_up: ")"}
       - {width: 5}
 
       - {click: Shift, width: 14}
@@ -165,7 +165,7 @@ preset_keyboards:
       - {click: v, label: v}
       - {click: b, label: b}
       - {click: n, label: n}
-      - {click: m, label: m}
+      - {click: m, label: m, swipe_up: "("}
       - {width: 1}
       - {click: Backspace, width: 14}
 
